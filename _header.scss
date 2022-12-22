@@ -1,0 +1,20 @@
+/*estilos de header*/
+header{
+    height: 100px;
+    background: #212125;
+    padding: 0 50px;
+    color: #c6adbd;
+    @include flex;
+    .logo{
+        text-transform: uppercase;
+        color:rgb(216, 140, 188);
+        font-weight: 200;
+        }
+    .menu a{
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0 10px;
+        transition: 0.4s;
+    }        
+}
